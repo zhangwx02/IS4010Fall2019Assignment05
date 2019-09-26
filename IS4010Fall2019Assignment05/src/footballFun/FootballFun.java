@@ -25,6 +25,11 @@ public class FootballFun {
 			System.out.println("At least one test failed");
 		}
 	}
+	/**
+	 * Method to take a football score and return a string describing that score
+	 * @param score the number of the game
+	 * @return the score of football game
+	 */
 	public static String translateScore (int score) {
 		if (score == 2) { return  "safety"; }
 		if (score == 3) { return  "field goal";}
